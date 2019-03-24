@@ -1,31 +1,11 @@
-.SDKItem {
-  margin: 1em;
-  padding: 1em;
-  text-align:justify;
-  background-color: #fff;
-  border-radius: 5px 5px 0 0;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.15);
+.styleClass{
+  margin-top: 2%;
 }
 
-.SDKItem h2 {
-  text-align:center;
-  margin-bottom: 1em;
-  font-size: 1.0em;
-  font-weight: bold;
-  margin-top:0px;
+.colorClass {
+  color: white !important;
 }
 
-.SDKItem a {
-  display: inline-block;
-  margin-top: 1em;
-  padding: 1em;
-  color: #fff;
-  background: #051633;
-  border-radius: 5px;
-  font-size:13px;
-}
-.SDKItem p {
-  margin:0px;
-  font-size:14px;
-  text-align: justify;
+.bgClass{
+  background-color: grey;
 }
