@@ -1,0 +1,28 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "Assignment",
+	"main": "app.js",
+	"scripts": {
+		"test": "jest --coverage --coverageDirectory=output/coverage/jest"
+	},
+	"directories": {
+		"test": "tests"
+	},
+	"jest": {
+		"coverageReporters": [
+			"text",
+			"cobertura"
+		]
+	},
+	"author": "Satyam Suman",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"jest": "^24.0.0",
+		"mysql2": "^1.6.4",
+		"sequelize": "^4.42.0",
+		"supertest": "^3.4.2"
+	}
+}
