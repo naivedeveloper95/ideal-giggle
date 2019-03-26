@@ -1,10 +1,10 @@
 const Sequelize = require('sequelize');
 const { dbConfig } = require('./../startup');
 const sequelize = new Sequelize(
-	dbConfig.database,
-	dbConfig.username,
-	dbConfig.password,
-	dbConfig,
+    dbConfig.database,
+    dbConfig.username,
+    dbConfig.password,
+    dbConfig,
 );
 
 let models = {};
@@ -19,9 +19,9 @@ models.subSubCategory = sequelize.import('./subSubCategory');
 // models.subSubCategory.sync();
 
 Object.keys(models).forEach((modelName) => {
-	if ('associate' in models[modelName]) {
-		models[modelName].associate(models);
-	}
+    if ('associate' in models[modelName]) {
+        models[modelName].associate(models);
+    }
 });
 
 models.sequelize = sequelize;
